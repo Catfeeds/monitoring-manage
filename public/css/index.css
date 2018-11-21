@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  width: 100%;
+  height: 275px;
+  background-image: url(../images/nav_b.png);
+  background-size: 100% 100%;
+  position: relative;
+}
+.banner_top{
+  position: absolute;
+  top: 55px;
+  left: 15%;
+  height: 165px;
+  width: 70%;
+}
+.banner_bottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 104px;
+  width: 45%;
+}
+main{
+  width: 90%;
+  margin: 0 auto;
+}
+.name{
+  height: 92px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  color: #808080;
+  font-size: .875rem
+}
+.name img{
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  margin-right: 20px; 
+}
+.title{
+  color: #808080;
+  font-size: .875rem;
+  margin: 20px 0;
+}
+.sel {
+  width: 100%;
+  box-sizing: border-box;
+  appearance:none;
+  -moz--moz-appearance:none; 
+  -webkit-appearance:none;
+  background:url('../images/down.png') no-repeat scroll 97% center transparent;
+  background-size:10px 6px;
+  border: 1px solid #838383;
+  padding-left:10px;
+  border-radius: 7px;
+  height: 38px;
+  line-height: 38px; 
+  color: #838383;
+}
+.common-line input{
+  height: 38px;
+  line-height: 38px; 
+  color: #838383;
+  border: 1px solid #838383;
+  padding-left:10px;
+  width: 100%;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+button{
+  outline: none;
+  width: 100%;
+  line-height: 54px;
+  text-align: center;
+  color: #ffffff;
+  border: 0;
+  margin-top: 20px;
+  border-radius:54px; 
+  background: linear-gradient(45deg, #415cca, #0045b4);
+}
+.q_box{
+  display: flex;
+  width:14rem;
+  margin: 60px auto;
+  color: #415cca;
+  height: 3.4375rem; 
+  justify-content: space-between;
+  align-items: center;
+}
+.q_box img{
+  width: 3.4375rem;
+  height: 3.4375rem;
+}
+.q_box p{
+  width: 6.5rem;
+  flex: 1 1 6.5rem;
+  margin-left: .375rem;
+}
+.q_box .line{
+  width: 2px;
+  height: 80%;
+  background-color: #415cca;
+  margin: 0 .75rem;
+}
+.q_box info{
+  /* width: 3.5rem;
+  height: 2rem; */
+}
+/* .banner_top */
